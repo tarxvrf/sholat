@@ -8,7 +8,7 @@ interface Props{
 
 const Listjadwal:React.FC<Props>= ({datasholat,ubahtanggal}) => {
   return (
-    <ul className="flex p-3 gap-3 text-2xl">
+    <ul className="p-3 gap-3 text-2xl">
         {datasholat.map((val:any, index) => (
             <li className="flex flex-col gap-5" key={index}>
               <h1 className="text-center">Tanggal : <span className="text-yellow-300">{ubahtanggal}</span> </h1>

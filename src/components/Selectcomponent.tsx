@@ -50,10 +50,11 @@ const Selectcomponent = () => {
   console.log(datasholat);
 
   return (
-    <div className="border rounded-2xl mx-1 shadow-2xl shadow-amber-600 ">
+    <div className="w-full shadow shadow-2xl shadow-amber-600 border rounded-2xl">
       <div className="mb-5">
         <Selectkota options={namakota} handle={handlepilih} />
       </div>
+      
       <div className="flex justify-center">
         {pilihkota === "" ? (
           "Silahkan Pilih Kota"
@@ -63,7 +64,7 @@ const Selectcomponent = () => {
           </div>
         )}
       </div>
-      <div className="pb-3">
+      <div className="flex justify-center pb-3">
         <Listjadwal datasholat={datasholat} ubahtanggal={ubahtanggal}/>
       </div>
     </div>
