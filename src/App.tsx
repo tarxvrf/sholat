@@ -6,7 +6,7 @@ function App() {
  
   return (
     <>
-      <div className="bg-black min-h-screen text-white flex flex-col justify-center gap-5 pt-2">
+      <div className="bg-black min-h-screen text-white flex flex-col pt-20 gap-5">
         <div className="flex justify-center text-3xl ">Jadwal Sholat </div>
         <Selectcomponent/>          
       </div>
